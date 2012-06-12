@@ -23,12 +23,13 @@ end
 gem 'jquery-rails'
 
 group :development do
-  gem 'rspec-rails'
+gem 'rspec-rails'
+gem 'rspec-core'
 end
-
 group :test do
-  gem 'rspec'
-  gem 'webrat'
+gem 'rspec-rails'
+gem 'rspec-core'
+gem 'webrat'
 end
 
 
